@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+@using MuzicStore.Model
+@{
+    ViewData["Title"] = "Home page";
+    List<Genre> genreList = (List<Genre>)ViewData["Genre"];
+    List<Mood> moodList = (List<Mood>)ViewData["Mood"];
+}
+
+<style>
+
+    /* Hide the default scrollbar */
+    .d-flex.overflow-auto::-webkit-scrollbar {
+        width: 0 !important;
+    }
+
+    /* Create a custom scrollbar track */
+    .d-flex.overflow-auto::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    /* Create a custom scrollbar thumb */
+    .d-flex.overflow-auto::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+</style>
+
+<div class="container">
+    <!-- genre list -->
+    <div class="row mt-5">
+        <h2 class="text-center fw-bold">Genre</h2>
+        <div class="d-flex mt-3 overflow-auto">
+            @foreach (Genre g in genreList)
+            {
+                <a asp-page="Audio/List" asp-route-genreId="@g.Id" class="col-3 text-decoration-none text-white text-center">
+                    <img src="img/genre/@(g.Genre1).png" alt="@g.Genre1" class="rounded img-fluid">
+                    <h4 class="text-center">@g.Genre1</h4>
+                </a>
+            }
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- mood list -->
+    <div class="row mt-5">
+        <h2 class="text-center fw-bold">Mood</h2>
+        <div class="d-flex mt-3 overflow-auto">
+            @foreach (Mood m in moodList)
+            {
+                <a asp-page="Audio/List" asp-route-moodId="@m.Id" class="col-3 text-decoration-none text-white text-center">
+                    <img src="img/mood/@(m.MoodName).png" alt="@m.MoodName" class="rounded img-fluid">
+                    <h4 class="text-center">@m.MoodName</h4>
+                </a>
+            }
+        </div>
+    </div>
+</div>

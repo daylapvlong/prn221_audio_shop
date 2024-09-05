@@ -1,0 +1,32 @@
+﻿@model MuzicStore.Model.Order;
+
+@{
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#detailModal-@Model.Id">
+        Detail
+    </button>
+
+    <div class="modal fade" style="background: #1c1c1c !important;" id="detailModal-@Model.Id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="background: #1c1c1c !important;" role="document">
+            <div class="modal-content" style="background: #1c1c1c !important;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Supplier #@Model.Id</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @foreach (var audio in @Model.OrderDetails)
+                    {
+                        <div class="text-center mb-5">
+                            <img src="@audio.Audio.Image" class="image col-6 rounded" />
+                        </div>
+
+                        <p class="title">Title: @audio.Audio.Title</p>
+                        <p class="artist">Artist: @audio.Audio.Artist.Name</p>
+                        <p class="price">Price: @audio.Audio.Price</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}

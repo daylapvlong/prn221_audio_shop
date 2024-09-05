@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MuzicStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MuzicStore.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\ADORE.mp3",
+      "PackagePath": "staticwebassets\\audio\\ADORE.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\AIR.mp3",
+      "PackagePath": "staticwebassets\\audio\\AIR.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\All the Jingle Ladies - Jobii.mp3",
+      "PackagePath": "staticwebassets\\audio\\All the Jingle Ladies - Jobii.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\BLAME.mp3",
+      "PackagePath": "staticwebassets\\audio\\BLAME.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\BREEZE.mp3",
+      "PackagePath": "staticwebassets\\audio\\BREEZE.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\CANDY.mp3",
+      "PackagePath": "staticwebassets\\audio\\CANDY.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\D.A.D.mp3",
+      "PackagePath": "staticwebassets\\audio\\D.A.D.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\FRIEND.mp3",
+      "PackagePath": "staticwebassets\\audio\\FRIEND.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\HOONEY.mp3",
+      "PackagePath": "staticwebassets\\audio\\HOONEY.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\LILY.mp3",
+      "PackagePath": "staticwebassets\\audio\\LILY.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\LUCKY.mp3",
+      "PackagePath": "staticwebassets\\audio\\LUCKY.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\MARVEL.mp3",
+      "PackagePath": "staticwebassets\\audio\\MARVEL.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\PEACH.mp3",
+      "PackagePath": "staticwebassets\\audio\\PEACH.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\WEEKENDS.mp3",
+      "PackagePath": "staticwebassets\\audio\\WEEKENDS.mp3"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\1.gif",
+      "PackagePath": "staticwebassets\\audio\\img\\1.gif"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\10.png",
+      "PackagePath": "staticwebassets\\audio\\img\\10.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\2.png",
+      "PackagePath": "staticwebassets\\audio\\img\\2.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\3.png",
+      "PackagePath": "staticwebassets\\audio\\img\\3.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\4.png",
+      "PackagePath": "staticwebassets\\audio\\img\\4.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\5.png",
+      "PackagePath": "staticwebassets\\audio\\img\\5.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\6.png",
+      "PackagePath": "staticwebassets\\audio\\img\\6.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\7.png",
+      "PackagePath": "staticwebassets\\audio\\img\\7.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\8.png",
+      "PackagePath": "staticwebassets\\audio\\img\\8.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\9.png",
+      "PackagePath": "staticwebassets\\audio\\img\\9.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\Buff_LongRange.png",
+      "PackagePath": "staticwebassets\\audio\\img\\Buff_LongRange.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\audio\\img\\exp_orb.png",
+      "PackagePath": "staticwebassets\\audio\\img\\exp_orb.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\genre\\Classical.png",
+      "PackagePath": "staticwebassets\\img\\genre\\Classical.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\genre\\Hip Hop.png",
+      "PackagePath": "staticwebassets\\img\\genre\\Hip Hop.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\genre\\Jazz.png",
+      "PackagePath": "staticwebassets\\img\\genre\\Jazz.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\genre\\Pop.png",
+      "PackagePath": "staticwebassets\\img\\genre\\Pop.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\genre\\Rock.png",
+      "PackagePath": "staticwebassets\\img\\genre\\Rock.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\home-decor.png",
+      "PackagePath": "staticwebassets\\img\\home-decor.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\mood\\Angry.png",
+      "PackagePath": "staticwebassets\\img\\mood\\Angry.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\mood\\Calm.png",
+      "PackagePath": "staticwebassets\\img\\mood\\Calm.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\mood\\Energetic.png",
+      "PackagePath": "staticwebassets\\img\\mood\\Energetic.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\mood\\Happy.png",
+      "PackagePath": "staticwebassets\\img\\mood\\Happy.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\img\\mood\\Sad.png",
+      "PackagePath": "staticwebassets\\img\\mood\\Sad.png"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Coding\\.Net\\PRN221\\MuzicStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MuzicStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MuzicStore.props",
+      "PackagePath": "build\\MuzicStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MuzicStore.props",
+      "PackagePath": "buildMultiTargeting\\MuzicStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MuzicStore.props",
+      "PackagePath": "buildTransitive\\MuzicStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

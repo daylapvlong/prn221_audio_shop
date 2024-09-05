@@ -1,0 +1,120 @@
+﻿@page
+@model MuzicStore.Pages.Cart.IndexModel
+@using MuzicStore.Model;
+@{
+}
+
+<table class="table text-white">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Carts[0].AudioName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carts[0].Quantity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carts[0].AudioImage)
+            </th>
+            <th>
+                Total Price
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Carts != null)
+        {
+            @foreach (var item in Model.Carts)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AudioName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Quantity)
+                    </td>
+                    <td>
+                        <img width="100" height="100" style="background-position: center center" src="@item.AudioImage" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UnitPrice)$
+                    </td>
+                    <td>
+                        <a class="btn btn-outline-danger" asp-page="./RemoveCart" asp-route-audioId="@item.AudioId">X</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <p>Không có sản phẩm trong giỏ hàng.</p>
+        }
+    </tbody>
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td> <p><strong>Total Price: @Model.TotalPrice $</strong></p></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+
+<form method="post">
+    <div class="form-group mt-3">
+        <input type="submit" value="Submit Order" class="btn btn-outline-primary" />
+    </div>
+</form>
+
+<h3 class="mt-5 fw-bold">WOULD YOU WANT TO ADD LIKED AUDIO?</h3>
+
+<div class="col-12" style="padding-bottom: 80px;">
+
+    <div class="text-start">
+        <div class="row d-flex align-items-center py-2 border-bottom">
+            <div class="col-2">Audio</div>
+            <div class="col-2"></div>
+            <div class="col-2">Mood</div>
+            <div class="col-2">Genre</div>
+            <div class="col-2">Price</div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row d-flex py-2">
+            @foreach (var audio in Model.LikedAudios)
+            {
+                <div class="col-2"> <img style="border-radius: 7px;" class="img-fluid p-3" src="@audio.Image"> </div>
+                <div class="col-2">
+                    <div class="row d-flex">
+                        <p><b>@audio.Title</b></p>
+                    </div>
+                    <div class="row d-flex">
+                        <p class="text-muted">@audio.Artist.Name</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="row d-flex">
+                        <p><b>@audio.Mood.MoodName</b></p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="row d-flex">
+                        <p><b>@audio.Genre.Genre1</b></p>
+                    </div>
+                </div>
+                <div class="col-2 d-flex">
+                    <p><b>$@audio.Price</b></p>
+                </div>
+                <div class="col-2">
+                    <a class="btn btn-primary" role="button" asp-page="/Cart/AddToCart" asp-route-id="@audio.Id" asp-route-isInCart="true">Add to Cart<i class="fa fa-cart-plus"></i></a>
+                </div>
+            }
+        </div>
+
+    </div>
+
+</div>

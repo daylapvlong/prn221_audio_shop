@@ -1,0 +1,94 @@
+﻿@page
+@model MuzicStore.Pages.Admin.ManageUserModel
+@{
+}
+
+<div class="row d-flex justify-content-center text-center">
+
+    <h3 class="fw-bold mt-4">User Manage</h3>
+
+    <div class="col-8 mt-5">
+
+        <table class="table table-borderless text-light">
+            <thead class="text-center mb-5">
+                <tr class="mb-5">
+                    @* <th class="w-25 border-bottom-0"></th> *@
+                    <th class="border-bottom">User Id</th>
+                    <th class="border-bottom">User Name</th>
+                    <th class="border-bottom">Role</th>
+                    <th class="border-bottom">Status</th>
+                    <th class="border-bottom" colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody class="text-center mt-5">
+                @foreach (var user in Model.Users)
+                {
+                    <tr class="mt-5 user-select-all">
+
+                        <td>@user.Id</td>
+                        <td>@user.Username</td>
+                        <td>@user.Name</td>
+                        <td>
+                            @if (user.Role == 1)
+                            {
+                                <span class="text-danger">Admin</span>
+                            }
+                            else
+                            {
+                                <span class="text-success">Customer</span>
+                            }
+                        </td>
+                        <td>
+                            @if (user.Status == true)
+                            {
+                                <span class="text-success">Normal</span>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Banned</span>
+                            }
+                        </td>
+                        <td>
+                            @await Html.PartialAsync("UpdateUser", user)
+
+                        </td>
+                        <td>
+                            @if (user.Status == true)
+                            {
+                                <form id="banForm_@user.Id" method="post">
+                                    <input name="Action" type="hidden" value="BANNED" />
+                                    <input type="hidden" asp-for="@user.Id" />
+                                    <button type="button" class="btn btn-danger" onclick="confirmBan(@user.Id)">Ban</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form id="unbanForm_@user.Id" method="post">
+                                    <input name="Action" type="hidden" value="UNBANNED" />
+                                    <input type="hidden" asp-for="@user.Id" />
+                                    <button type="button" class="btn btn-success" onclick="confirmUnban(@user.Id)">Unban</button>
+                                </form>
+                            }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script>
+    function confirmBan(userId) {
+        if (confirm('Are you sure you want to ban this user?')) {
+            // If the user confirms, submit the form
+            document.getElementById('banForm_' + userId).submit();
+        }
+    }
+
+    function confirmUnban(userId) {
+        if (confirm('Are you sure you want to unban this user?')) {
+            // If the user confirms, submit the form
+            document.getElementById('unbanForm_' + userId).submit();
+        }
+    }
+</script>

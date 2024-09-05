@@ -1,0 +1,42 @@
+﻿@page
+@model MuzicStore.Pages.Admin.ManageOrderModel
+@{
+}
+
+<div class="row d-flex justify-content-center text-center">
+
+    <h3 class="fw-bold mt-4">Manage Order</h3>
+
+    <h4 class="fw-bold mt-4">Total Order: @Model.Orders.Count()</h4>
+
+    <div class="col-8 mt-5" id="datatableDiv">
+
+        <table class="table table-borderless text-white" id="datatable">
+            <thead class="mb-5">
+                <tr class="mb-5">
+                    <th class="border-bottom">Order Id</th>
+                    <th class="border-bottom">Buyer Name</th>
+                    <th class="border-bottom">Price</th>
+                    <th class="border-bottom">Action</th>
+                </tr>
+            </thead>
+            <tbody class="text-center mt-5">
+                @foreach (var order in Model.Orders)
+                {
+                    <tr class="mt-5">
+
+                        <td>@order.Id</td>
+                        <td>@order.Buyer.Name</td>
+                        <td>@order.Price</td>
+                        <td>@order.PurchaseDate</td>
+                        <td>
+                            @await Html.PartialAsync("ViewOrder", order)
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

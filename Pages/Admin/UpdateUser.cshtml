@@ -1,0 +1,59 @@
+﻿@model MuzicStore.Model.User;
+@{
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#editModal-@Model.Id">
+        Edit
+    </button>
+
+
+    <div class="modal fade" id="editModal-@Model.Id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Supplier #@Model.Id</h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form method="post">
+                    <div class="modal-body">
+                        <input name="Action" type="hidden" value="EDIT" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="@Model.Id" />
+                        <div class="form-group">
+                            <label asp-for="@Model.Username" class="control-label"></label>
+                            <input asp-for="@Model.Username" class="form-control" />
+                            <span asp-validation-for="@Model.Username" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="@Model.Name" class="control-label"></label>
+                            <input asp-for="@Model.Name" class="form-control" />
+                            <span asp-validation-for="@Model.Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="@Model.Role" class="control-label"></label>
+                            <select id="role" name="role" asp-for="@Model.Role" class="form-select" style="width:50%; margin: 0 auto;">
+                                <option value="0">User</option>
+                                <option value="1">Admin</option>
+                            </select>
+                            <span asp-validation-for="@Model.Role" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="@Model.Status" class="control-label"></label>
+                            <select id="status" name="status" asp-for="@Model.Status" class="form-select" style="width:50%; margin: 0 auto;">
+                                <option value="True">Normal</option>
+                                <option value="False">Banned</option>
+                            </select>
+                            <span asp-validation-for="@Model.Status" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <div class="form-group">
+                            <input type="submit" value="Save" class="btn btn-primary" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+}

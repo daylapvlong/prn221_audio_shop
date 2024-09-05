@@ -1,0 +1,73 @@
+﻿@page
+@model MuzicStore.Pages.Audio.DetailModel
+@using MuzicStore.Model
+@{
+    ViewData["Title"] = "Details";
+    List<Review> reviews = (List<Review>)ViewData["ReviewList"];
+    Review review = new Review();
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    var username = @HttpContext.Session.GetString("USERNAME");
+}
+
+<div class="row justify-content-center">
+
+    <div class="col-6">
+
+        <div class="position-relative">
+
+            <img src="@Model.Audio.Image" class="position-absolute w-100 rounded" style="z-index: -1; opacity: 0.5; aspect-ratio: 1">
+
+        </div>
+
+        <div class="text-center flex-column" id="audioDetails">
+
+            <h3 class="fw-bold mt-5">
+                @Model.Audio.Title.ToUpper()
+            </h3>
+
+            <p class="mt-5">@Model.Audio.Genre?.Genre1  -  @Model.Audio.Mood?.MoodName</p>
+
+            <div>
+                <a class="btn btn-primary" role="button" asp-page="/Cart/AddToCart" asp-route-id="@Model.Audio.Id" asp-route-isInCart="false">Add to Cart<i class="fa fa-cart-plus"></i></a>
+            </div>
+
+            <div class="rounded-circle btn border-0" onclick="play('@Model.Audio.Filename', '@Model.Audio.Image', @Model.Audio.Id, '@Model.Audio.Title')" id="playButton">
+                <i class="bi bi-play text-white" style="font-size: 9rem"></i>
+            </div>
+
+
+        </div>
+
+        @* review *@
+        <div class="text-center" style="margin-top: 20vh; padding-bottom: 80px">
+
+            <h3 class="fw-bold">REVIEW</h3>
+
+            <div id="commentContainer">
+
+                @foreach (Review item in reviews)
+                {
+                    <div class="media d-flex align-items-center mt-4">
+                        <i class="bi bi-person-circle fs-2 mr-3"></i>
+
+                        <div class="media-body text-start ms-4">
+                            <h6 class="mt-0 fw-bold">@item.User?.Name</h6>
+
+                            <p>@item.Comment</p>
+                        </div>
+                    </div>
+                }
+
+            </div>
+            @if (username != null)
+            {
+                <div>
+                    @await Html.PartialAsync("AddReview", review)
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+</div>
